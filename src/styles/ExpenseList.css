@@ -1,0 +1,29 @@
+.expense-list {
+  margin-top: 1rem;
+}
+
+.expense-list h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.expense-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 0.5rem 0;
+}
+
+.expense-title {
+  font-weight: bold;
+}
+
+.expense-amount {
+  color: #0074d9;
+}
